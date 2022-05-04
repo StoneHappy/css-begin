@@ -1,9 +1,19 @@
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    column-gap: 10px;
+    margin-bottom: 20px;
+}
+
 .thumbnail {
     width: 100%;
     margin-bottom: 8px;
 }
-
-.search-bar {}
 
 .video-author,
 .video-status {
@@ -35,14 +45,3 @@
 }
 
 .video-info {}
-
-.video-info-grid {
-    display: grid;
-    grid-template-columns: 50px 1fr;
-    column-gap: 10px;
-}
-
-.video-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
