@@ -1,0 +1,9 @@
+.sidebar {
+    position: fixed;
+    background-color: azure;
+    bottom: 0px;
+    top: 55px;
+    left: 0px;
+
+    width: 70px;
+}
